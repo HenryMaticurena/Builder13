@@ -95,7 +95,8 @@ public class Computador {
       
     @Override
     public String toString(){
-        return "Especificiaciones Tecnicas:\n";
+        return "Computadora: \n"
+        		+ "MARCA: "+this.getMarca()+"\n Modelo: "+this.getModelo()+"\n Almacenamiento: "+this.getAlmacenamiento()+"\n Sistema Operativo: "+this.getOs();
                
     }
 
